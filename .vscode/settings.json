@@ -1,0 +1,18 @@
+{
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "auto",
+  "prettier.printWidth": 80,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "git.ignoreLimitWarning": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  }
+}

