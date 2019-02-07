@@ -1,0 +1,17 @@
+extends layout
+
+block append scripts
+  script(crossorigin, src="/javascripts/index.js")
+
+block content
+    h1= title
+    form
+        div(class="form-group")
+            label(for="username") Username
+            input(class="form-control", type="text", placeholder="Username", id="username", name="username")
+        div(class="form-group")
+            label(for="username") Password
+            input(class="form-control", type="password", placeholder="Password", id="password", name="password") 
+        
+        div(class="form-group")
+            input(class="form-control", type="submit", value="Submit")
