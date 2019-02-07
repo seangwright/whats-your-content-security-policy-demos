@@ -80,3 +80,4 @@ typings/
 .dynamodb/
 
 certs/**/*
+src/vulnerable-site/public/javascripts/password-app.js

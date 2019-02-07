@@ -8,7 +8,7 @@
     "dev:site": "nodemon ./src/vulnerable-site/bin/www",
     "api": "node ./src/malicious-api/bin/www",
     "dev:api": "nodemon ./src/malicious-api/bin/www",
-    "build:react": "webpack --config ./src/vulnerable-site/webpack.config.js",
+    "build:react": "webpack --config ./src/vulnerable-site/webpack.config.js -p",
     "dev:react": "webpack --config ./src/vulnerable-site/webpack.config.js --watch"
   },
   "author": "sean@seangwright.me",
