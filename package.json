@@ -7,7 +7,7 @@
     "site": "node ./src/vulnerable-site/bin/www",
     "dev:site": "nodemon ./src/vulnerable-site/bin/www",
     "api": "node ./src/malicious-api/bin/www",
-    "dev:api": "nodemon ./src/vulnerable-site/bin/www",
+    "dev:api": "nodemon ./src/malicious-api/bin/www",
     "build:react": "webpack --config ./src/vulnerable-site/webpack.config.js",
     "dev:react": "webpack --config ./src/vulnerable-site/webpack.config.js --watch"
   },
@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "cookie-parser": "1.4.3",
+    "cors": "^2.8.5",
     "debug": "4.1.1",
     "express": "4.16.4",
     "http-errors": "1.7.1",
