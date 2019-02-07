@@ -1,0 +1,24 @@
+{
+  "name": "cool-console",
+  "version": "0.0.1",
+  "description": "Demos XSS from a package on Npm",
+  "main": "index.js",
+  "scripts": {
+    "build": "javascript-obfuscator original.js --output index.js --config obfuscate-config.js"
+  },
+  "keywords": [
+    "console",
+    "xss",
+    "npm",
+    "demo"
+  ],
+  "author": "sean@seangwright.me",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seangwright/whats-your-content-security-policy-demos"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^0.18.1"
+  }
+}
