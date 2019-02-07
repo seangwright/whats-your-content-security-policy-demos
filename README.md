@@ -10,6 +10,22 @@ Perform the following instructions in `./src/certs`
 
 <https://stackoverflow.com/questions/21397809/create-a-trusted-self-signed-ssl-cert-for-localhost-for-use-with-express-node>
 
+### Development
+
+Run the following commands
+
+    npm i
+
+    npm run dev:react
+
+In a separate shell
+
+    npm run dev:site
+
+In a separate shell
+
+    npm run dev:api
+
 ### Build and start apps
 
 Run the following commands
@@ -17,8 +33,10 @@ Run the following commands
     npm i
 
     npm run build:react
-    npm run start:site
+    npm run site
 
 And in a separate shell
 
-    npm run start:api
+    npm run api
+
+The site will run on <https://localhost:3000> and the api will run on <https://localhost:3001>
