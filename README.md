@@ -40,3 +40,8 @@ And in a separate shell
     npm run api
 
 The site will run on <https://localhost:3000> and the api will run on <https://localhost:3001>
+
+## Related Links
+
+- Cool Console package <https://www.npmjs.com/package/cool-console>
+- Meeup - What is your Content Security Policy? <https://www.meetup.com/Akron-Software-Craftsmanship-MeetUp/events/258190933/>
