@@ -7,4 +7,11 @@ router.get('/', function (req, res, next) {
     });
 });
 
+router.post('/', function (req, res, next) {
+    res.render('login-old', {
+        title: 'Login Old',
+        loggedIn: true
+    });
+});
+
 module.exports = router;

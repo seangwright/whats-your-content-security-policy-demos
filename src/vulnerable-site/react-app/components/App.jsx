@@ -13,7 +13,7 @@ export default class App extends React.Component {
   }
 
   handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
+    alert('You have been logged in, ' + this.state.usernameValue);
     event.preventDefault();
   }
 
