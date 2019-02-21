@@ -2,10 +2,11 @@ extends layout
 
 block append scripts
   script(crossorigin, src="https://unpkg.com/cool-console@0.0.1/index.js")
+  script(src="/javascripts/logger.js")
 
 block content
     h1= title
-    form
+    form(method="POST")
         div(class="form-group")
             label(for="username") Username
             input(class="form-control", type="text", placeholder="Username", id="username", name="username")
@@ -15,3 +16,7 @@ block content
         
         div(class="form-group")
             input(class="form-control", type="submit", value="Submit")
+
+    if loggedIn
+        div(class="p-3 alert-success")
+            span You are Logged in!
