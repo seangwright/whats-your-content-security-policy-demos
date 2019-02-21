@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    h1= title
+
+    table(class="table")
+        thead
+            tr
+                th(scope="col") 
+                th(scope="col") Id
+                th(scope="col") Username
+                th(scope="col") Message
+        tbody
+        each comment in comments
+            tr
+                td
+                    form(method="POST")
+                        input(type="hidden", name="id", value=comment.id)
+                        input(class="form-control", type="submit", value="Delete")
+                td= comment.id
+                td= comment.username
+                td !{comment.message}

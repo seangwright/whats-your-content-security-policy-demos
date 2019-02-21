@@ -2,13 +2,14 @@ const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
 const logger = require('morgan');
 const nocache = require('nocache');
 
 const indexRouter = require('./routes/index');
 const loginNewRouter = require('./routes/login-new');
 const loginOldRouter = require('./routes/login-old');
-const userRecordsRouter = require('./routes/user-records');
+const commentModerationRouter = require('./routes/comment-moderation');
 
 const app = express();
 
@@ -23,12 +24,15 @@ app.use(express.urlencoded({
   extended: false
 }));
 app.use(cookieParser());
+app.use(bodyParser.urlencoded({
+  extended: true
+}))
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/login-new', loginNewRouter);
 app.use('/login-old', loginOldRouter);
-app.use('/user-records', userRecordsRouter);
+app.use('/comment-moderation', commentModerationRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
