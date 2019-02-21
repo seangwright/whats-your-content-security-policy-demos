@@ -38,9 +38,19 @@ app.use(bodyParser.urlencoded({
 app.use(csp({
   directives: {
     defaultSrc: ["'self'"],
+    scriptSrc: ["'self'", 'https://unpkg.com'],
+    styleSrc: ["'self'", 'https://maxcdn.bootstrapcdn.com', function (req) {
+      if (req.path === '/comment-moderation') {
+        return "'unsafe-inline'";
+      }
+    }],
+    fontSrc: ["'self'"],
+    imgSrc: ["'self'"],
+    connectSrc: ["'self'"],
     reportUri: '/report-csp'
   },
-  reportOnly: true
+  reportOnly: false,
+  loose: false,
 }));
 
 app.use(express.static(path.join(__dirname, 'public')));
