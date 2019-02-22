@@ -52,11 +52,17 @@ Navigate to <https://localhost:3000> after running `npm run dev:site`.
 
 Here are the vulnerabilities:
 
-- The **comment-moderation** page has `<script>` tag injection, simulating being sourcse from a backend data source, which will prevent you from deleting the 'hacked' comment but will cause all other comments to be deleted.
+- The **comment-moderation** page has `<script>` tag injection, simulating coming from a backend data source, which will prevent you from deleting the 'hacked' comment but will cause all other comments to be deleted.
+
+  The scenario here is that while many web frameworks protect against XSS via form/data submission, you don't always control where your data comes from. Maybe it comes from a data load process or from a legacy web app that doesn't have XSS protection.
 
 - The **login-old** page loads a vulnerable package from `npm` using <https://unpkg.com/> to enhance the browser console. This package has obfuscated contents that keylog the username and password field to the malicious api.
 
+  The scenario here is that pulling a package off npm could make your app exploitable. `cool-console` is live on npm and while it only logs data to a localhost endpoint there could easily be packages in the registry that are much more nefarious. The code in this package also does what you expect - it makes your `console.log()` calls look cool. But how many developers read the source code of their package dependencies if the package _does what it is supposed to do_?
+
 - The **login-new** page uses some CSS loaded via stylesheets from the site that use React's attribute update behavior and `background-image` to keylog the username and password field to the malicious api.
+
+  The scenario here is that while each attack vector by itself (React, CSS) isn't viable, by combining the two you create a vector where there wasn't one before. React updates DOM attributes with the component state - something the DOM doesn't do natively. CSS can target those attributes but normally they don't change from their initial values (but this can still be an issue with server rendered, pre-populated values). But take React + CSS and you can send requests to a 3rd party anytime a matching character is found in an attribute.
 
 ### Reporting
 
