@@ -20,12 +20,6 @@ This repo has 3 branches that detail the steps taken from identifying vulnerabil
 
 ## How to run the demos
 
-### Add certificates
-
-Perform the following instructions in `./src/certs`
-
-<https://stackoverflow.com/questions/21397809/create-a-trusted-self-signed-ssl-cert-for-localhost-for-use-with-express-node>
-
 ### Start Apps
 
 1. To start checkout `feat/add-vulnerabilities`
